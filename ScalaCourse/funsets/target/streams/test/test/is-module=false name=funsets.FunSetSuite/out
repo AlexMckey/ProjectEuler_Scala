@@ -1,0 +1,19 @@
+[0m[[0minfo[0m] [0m[32mFunSetSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- string take[0m[0m
+[0m[[0minfo[0m] [0m[32m- adding ints[0m[0m
+[0m[[0minfo[0m] [0m[32m- contains is implemented[0m[0m
+[0m[[0minfo[0m] [0m[32m- singletonSet(1) contains 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- union contains all elements[0m[0m
+[0m[[0minfo[0m] [0m[32m- intersect contains only both elements[0m[0m
+[0m[[0minfo[0m] [0m[32m- diff for sets[0m[0m
+[0m[[0minfo[0m] [0m[32m- filter for sets[0m[0m
+[0m[[0minfo[0m] [0m[32m- forall tests[0m[0m
+[0m[[0minfo[0m] [0m[32m- Set(1,2,3,4) and x<5 tests[0m[0m
+[0m[[0minfo[0m] [0m[32m- Set(-1000,0) and x<1000 tests[0m[0m
+[0m[[0minfo[0m] [0m[32m- even forall tests[0m[0m
+[0m[[0minfo[0m] [0m[32m- exists tests[0m[0m
+[0m[[0minfo[0m] [0m[32m- Set(1,3,4,5,7,1000) and x=2 tests[0m[0m
+[0m[[0minfo[0m] [0m[32m- even exist tests[0m[0m
+[0m[[0minfo[0m] [0m[32m- even exist fail tests[0m[0m
+[0m[[0minfo[0m] [0m[32m- Set(1,3,4,5,7,1000) map _+1 tests[0m[0m
+[0m[[0minfo[0m] [0m[32m- forall & map: doubling numbers[0m[0m

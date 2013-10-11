@@ -1,0 +1,20 @@
+[0m[[0minfo[0m] [0m[32mBloxorzSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- terrain function level 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- findChar level 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- legal level 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- neighbors level 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- neighbors above goal level 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- legalNeighbors level 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- legalNeighbors above goal level 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- neighbors with history level 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- new neighbors only level 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- one step before optimal goal level 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- terrain function: level 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- Block: isStanding[0m[0m
+[0m[[0minfo[0m] [0m[32m- Block: isLegal[0m[0m
+[0m[[0minfo[0m] [0m[32m- Block: neighbors[0m[0m
+[0m[[0minfo[0m] [0m[32m- Block: legalNeighbors[0m[0m
+[0m[[0minfo[0m] [0m[32m- Solver: done[0m[0m
+[0m[[0minfo[0m] [0m[32m- Solver: pathsFromStart[0m[0m
+[0m[[0minfo[0m] [0m[32m- Solver: pathsToGoal[0m[0m
+[0m[[0minfo[0m] [0m[32m- Solver: solve for IMPOSSIBRU level[0m[0m
