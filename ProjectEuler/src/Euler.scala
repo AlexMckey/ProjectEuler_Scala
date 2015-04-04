@@ -1,3 +1,3 @@
 object Euler extends App {
-  Problems.P001
+  Problems.P002
 }
