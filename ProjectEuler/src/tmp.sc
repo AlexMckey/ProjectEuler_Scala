@@ -1,5 +1,10 @@
 object tmp {
-  lazy val f: Stream[Int] = Stream.cons(1, Stream.cons(2, f.zip(f.tail).map(p => p._1+p._2)))
-                                                  //> f: => Stream[Int]
-  f.filter(_%2==0).takeWhile(_<=4000000).sum      //> res0: Int = 4613732
+	val n = 600851475143L;                    //> n  : Long = 600851475143
+	def factors(n: Long): List[Long] =
+  (2 to math.sqrt(n).toInt).find(n % _ == 0)
+    .map(i => i.toLong :: factors(n / i)).getOrElse(List(n))
+                                                  //> factors: (n: Long)List[Long]
+  factors(n)                                      //> res0: List[Long] = List(71, 839, 1471, 6857)
+  factors(91)                                     //> res1: List[Long] = List(7, 13)
+  factors(13195)                                  //> res2: List[Long] = List(5, 7, 13, 29)
 }
