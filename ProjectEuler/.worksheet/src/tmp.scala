@@ -1,6 +1,7 @@
-object tmp {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(79); 
-	def gcd(a: Long, b: Long): Long = if(b == 0) a else gcd(b, a % b);System.out.println("""gcd: (a: Long, b: Long)Long""");$skip(42); 
-	def lcm(x: Long, y: Long) = x*y/gcd(x,y);System.out.println("""lcm: (x: Long, y: Long)Long""");$skip(19); 
-	val M = 2L to 20L;System.out.println("""M  : scala.collection.immutable.NumericRange.Inclusive[Long] = """ + $show(M ));$skip(23); val res$0 = 
-  M.foldRight(1L)(lcm);System.out.println("""res0: Long = """ + $show(res$0))}
+object tmp {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(32); 
+	val ns = (1 to 10);System.out.println("""ns  : scala.collection.immutable.Range.Inclusive = """ + $show(ns ));$skip(24); 
+  def sqr(x: Int) = x*x;System.out.println("""sqr: (x: Int)Int""");$skip(27); 
+	val sqs = ns.map(sqr).sum;System.out.println("""sqs  : Int = """ + $show(sqs ));$skip(23); 
+	val ssq = sqr(ns.sum);System.out.println("""ssq  : Int = """ + $show(ssq ));$skip(9); val res$0 = 
+	ssq-sqs;System.out.println("""res0: Int = """ + $show(res$0))}
 }
