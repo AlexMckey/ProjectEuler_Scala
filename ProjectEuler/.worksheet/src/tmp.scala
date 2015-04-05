@@ -1,8 +1,6 @@
-object tmp {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(75); 
-	def checkPalindrom(i: Int) = i.toString == i.toString.reverse;System.out.println("""checkPalindrom: (i: Int)Boolean""");$skip(22); val res$0 = 
-	checkPalindrom(9009);System.out.println("""res0: Boolean = """ + $show(res$0));$skip(22); 
-	val l = (100 to 999);System.out.println("""l  : scala.collection.immutable.Range.Inclusive = """ + $show(l ));$skip(41); 
-	val fl = for (i <- l; j <- l) yield i*j;System.out.println("""fl  : scala.collection.immutable.IndexedSeq[Int] = """ + $show(fl ));$skip(36); 
-  val p = fl.filter(checkPalindrom);System.out.println("""p  : scala.collection.immutable.IndexedSeq[Int] = """ + $show(p ));$skip(8); val res$1 = 
-  p.max;System.out.println("""res1: Int = """ + $show(res$1))}
+object tmp {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(79); 
+	def gcd(a: Long, b: Long): Long = if(b == 0) a else gcd(b, a % b);System.out.println("""gcd: (a: Long, b: Long)Long""");$skip(42); 
+	def lcm(x: Long, y: Long) = x*y/gcd(x,y);System.out.println("""lcm: (x: Long, y: Long)Long""");$skip(19); 
+	val M = 2L to 20L;System.out.println("""M  : scala.collection.immutable.NumericRange.Inclusive[Long] = """ + $show(M ));$skip(23); val res$0 = 
+  M.foldRight(1L)(lcm);System.out.println("""res0: Long = """ + $show(res$0))}
 }
