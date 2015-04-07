@@ -1,5 +1,0 @@
-package streams
-
-object SolWS {
-  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
-}
